@@ -1,0 +1,172 @@
+:root {
+  --bg-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'DIN NEXTTM ARABIC';
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+}
+
+#main-header {
+  min-height: 110vh; /* Old: height: 110vh; */
+  background-image: url(../Assets/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-header {
+  background-image: url(../Assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon {
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #707070;
+}
+
+.navbar-dark .navbar-nav {
+margin-left: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.service-item {
+  height: auto;
+}
+
+.service-item img,
+#it-services img {
+  object-fit: cover;
+}
+
+#last-projects {
+  margin-bottom: 70px;
+}
+
+#partners {
+  background-color: #F6F8FB;
+  min-height: 200px;
+}
+
+.partner-img {
+  background-color: #f1f1f1;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
+
+#it-services,
+#work-with-us,
+#last-projects {
+  margin-top: 40px;
+}
+
+.it-services {
+  margin: 10px;
+}
+
+.customer {
+  width: 80px;
+}
+
+.footer {
+  background-image: url(../Assets/footer-bg.png);
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.footer-img {
+  width: 120px;
+}
+
+.footer-paragraph {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+#nav-home {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#nav-tab .nav-item {
+  background-color: #707070;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  padding: 10px 23px;
+  margin: 0 2px;
+}
+
+.header-photo{
+  background: rgba(255, 255, 255,.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 70px auto;
+  min-height: 50vh;
+  max-width: 1269px;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding:5px 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  border-radius: 24px;
+}
+
+#btn {
+  background-color: rgba(255, 255, 255,.0);
+  border: 1px solid white;
+  color: white;
+  padding:5px 10px;
+  border-radius: 24px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.header-icon {
+  font-size: 12px;
+  background-color: rgba(230, 230, 230,.4);
+  border-radius: 10px;
+  width: 125px;
+  height: 125px;
+  color: white;
+  padding: 15px;
+}
+
+.row.reverse{
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1166px) {
+
+#last-projects {
+  overflow: hidden;
+}
+.last-projects {
+  overflow-x: auto;
+}
+.last-projects .nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+}
